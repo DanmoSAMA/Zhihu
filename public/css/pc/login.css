@@ -1,0 +1,80 @@
+input:-webkit-autofill{
+  box-shadow: 0 0 0 1000px white inset; 
+} 
+input:-webkit-autofill::first-line{
+  font-size: 14px;
+}
+/*去除Chrome浏览器自动填入的默认样式*/
+
+body{
+  background-image: url(/public/img/login.png);
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.logo-img{
+  width: 128px;
+  height: 81px;
+  margin-bottom: 24px;
+}
+.main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex: 1 1 0%;
+  flex-direction: column;
+  min-height: 688px;
+  align-items: center;
+}
+.login-area{
+  width: 352px;
+  height: 411px;
+  padding: 0 24px 84px 24px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.login-area p{
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.login-area p a{
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+}
+.login-area p a.chosen{
+  border-bottom: 3px solid #2C67FF;
+}
+.login-area input{
+  width: 352px;
+  height: 48px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #EBEBEB;
+  font-size: 14px;
+}
+.login-area span{
+  margin-top: 30px;
+  display: block;
+  box-sizing: content-box;
+  width: 322px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  padding: 0 16px 0 16px;
+  outline: none;
+  border: 1px solid #2C67FF;
+  background-color: #2C67FF;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.form_2{
+  display: none;
+}

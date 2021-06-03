@@ -1,0 +1,101 @@
+html{
+  font-size: 100px;
+}
+html > body{
+  font-size: 16px;
+}
+.topbar{
+  width: 100%;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+.logo, .topbar-info{
+  height: 0.52rem;
+  float: left;
+}
+.logo > img{
+  height: 0.52rem;
+}
+.topbar-input, .download, .path{
+  float: left;
+  height: 0.52rem;
+}
+.topbar-input input{
+  outline: none;
+  width: 1.182rem;
+  /* width: 31.4vw; */
+  height: 0.22rem;
+  padding: 0.04rem 0 0.04rem 0.1rem;
+  margin: 0 0.12rem 0 0.12rem;
+  border: 0.01rem solid #EBEBEB;
+  border-radius: 0.18rem;
+  background-color: #F1F1F1;
+}
+.download{
+  padding-right: 0.12rem;
+  color: #2C67FF;
+}
+.sorts{
+  padding: 0.12rem 0.16rem 0.12rem 0.16rem;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.sorts::-webkit-scrollbar {
+  display: none;
+}
+.sorts > span{
+  /* float: left; */
+  width: 0.26rem;
+  height: 0.168rem;
+  padding: 0.05rem 0.16rem 0.05rem 0.16rem;
+  margin-left: 0.12rem;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  font-size: 0.13rem;
+  color: #808080;
+}
+span.chosen{
+  color: #2C67FF;
+  background-color: #ECF3FF;
+}
+.news-list{
+  width: 3.432rem;
+  padding: 0 0.16rem 0 0.16rem;
+}
+.news-list .item{
+  width: 3.432rem;
+  height: 1.12rem;
+  padding: 0.12rem 0 0.12rem 0;
+  border-bottom: 1px solid #E9E9E9;
+}
+.id{
+  float: left;
+  width: 0.22rem;
+  height: 1.12rem;
+  text-align: center;
+  color: #999;
+  margin-right: 0.06rem;
+}
+.id.hot{
+  color: #F69700;
+}
+.content{
+  float: left;
+  width: 2.02rem;
+  margin-right: 0.16rem;
+  line-height: 0.2rem;
+}
+.content p{
+  margin-top: 0.04rem;
+  font-size: 0.14rem;
+  /*这三个需要一起用*/
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news-list img{
+  width: 0.95rem;
+  float: left;
+  border-radius: 0.03rem;
+}

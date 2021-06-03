@@ -1,0 +1,13 @@
+html{
+  font-size: 13.33vw; /* 1rem == 100px */
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.clearfix::after,
+.clearfix::before {
+  content: '';
+  display: table;
+  clear: both;
+}

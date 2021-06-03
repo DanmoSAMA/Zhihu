@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知乎 - 有问题，就会有答案</title>
+  <link rel="stylesheet" href="/public/css/reset.css">
+  <link rel="stylesheet" href="/public/css/pc/login.css">
+</head>
+
+<body>
+  <div class="main">
+    <img src="/public/img/login-logo.png" alt="" class="logo-img">
+    <div class="login-area">
+      <p>
+        <a href="javascript:;" class="chosen">密码登录</a>
+        <a href="javascript:;">注册</a>
+      </p>
+      <form novalidate class="form_1">
+        <input type="text" placeholder="手机号或邮箱" name="id" required minlength="11" maxlength="11" autocomplete="off">
+        <br>
+        <input type="password" placeholder="密码" name="password" required minlength="6" maxlength="20" autocomplete="off">
+        <span class="btn_1">
+          登录
+        </span>
+      </form>
+
+      <form novalidate class="form_2">
+        <input type="text" placeholder="手机号或邮箱" name="id" required minlength="11" maxlength="11">
+        <br>
+        <input type="password" placeholder="密码" name="password" required minlength="6" maxlength="20">
+        <span class="btn_2">
+          注册
+        </span>
+      </form>
+
+    </div>
+  </div>
+  <script src="/public/js/pc/login.js"></script>
+</body>
+
+</html>
